@@ -1,0 +1,36 @@
+{
+  "name": "agents-md-papyrus",
+  "version": "0.1.0",
+  "description": "一份简体中文 AI 编程协作规则（AGENTS.md），附带通过 npx 安装与更新的命令行工具",
+  "keywords": [
+    "agents.md",
+    "ai-coding-agent",
+    "rules",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "joah9806",
+  "bin": {
+    "agents-md": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "AGENTS.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "pack:release": "npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joah9806/agents-md-papyrus.git"
+  },
+  "homepage": "https://github.com/joah9806/agents-md-papyrus#readme",
+  "bugs": {
+    "url": "https://github.com/joah9806/agents-md-papyrus/issues"
+  }
+}
